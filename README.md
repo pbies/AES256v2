@@ -65,14 +65,7 @@
 	License
 	-------
 
-		This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the
-		LICENSE file for details.
-
-		That means you must fulfill these requirements:
-		1. your project have the same license
-		2. you mention the original author (me)
-		3. can't use scripts in commercial products if they are not free
-		4. you can freely modify and use this project for personal usage
+		This project is licensed under the MIT License.
 
 	Acknowledgments
 	---------------
