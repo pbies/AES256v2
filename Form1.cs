@@ -295,7 +295,7 @@ namespace AES256
             aes.BlockSize = 128;
             aes.Mode = CipherMode.CBC;
             aes.Padding = PaddingMode.PKCS7;
-            using (var kdf = new Rfc2898DeriveBytes(passwordBytes, saltBytes, 1000))
+            using (var kdf = new Rfc2898DeriveBytes(passwordBytes, saltBytes, 10000))
             {
                 aes.Key = kdf.GetBytes(aes.KeySize / 8);
                 aes.IV = kdf.GetBytes(aes.BlockSize / 8);
